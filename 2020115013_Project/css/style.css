@@ -1,0 +1,1304 @@
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --yellow:#FAD02C;
+    --red:red;
+    --gold:rgb(218, 218, 32);
+}
+/* Start of css for index.php */
+*{
+    padding:0px;
+    margin:0px;    
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
+/* flexing the navbar */
+.navbar{
+    display: flex;
+    background-color: black;
+    color:white;
+    position: fixed;
+    overflow: hidden;
+    width:100%;
+    z-index:1000;
+}
+.item{
+    margin-top:20px;
+    font-size:20px;
+    margin-right:40px;
+    visibility: visible;
+    margin-bottom:20px;
+    transition:all 0.5s ease-in-out;
+    font-family:"Alegreya Sans";
+    cursor: pointer;
+}
+.welcome{
+    margin-left:120px;
+    margin-right:30px;
+}
+.gold{
+    color:yellow;
+    display:inline;
+}
+.silver{
+    color:silver;
+    display:inline;
+}
+/* Adjusting the logo */
+.logo{
+    margin-right:40px;
+}
+.dwlogo{
+    margin-top:-10px;
+    margin-left:-5px;
+}
+/* The dreamworld cinemas title */
+#hiddenlogotitle{
+    display: none;
+    color:yellow;
+    font-size:30px;
+    text-transform: uppercase;
+    margin-right:53px;
+    margin-left:50px;
+    margin-top:10px;
+    text-shadow:
+      0 0 12px  yellow,
+      0 0 10px black,
+      0 0 21px black,
+      0 0 42px black,
+      0 0 82px black,
+      0 0 42px yellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Hover effects for the menu*/
+.hover:hover{
+    color:yellow;
+    border-bottom:1px solid yellow;
+    transform:scale(1.2);
+    transition:all 0.5s ease-in-out;   
+}
+ /*Footer Css  */
+ .wholefooter{
+     margin-top:30px;  /*Change here to remove the gap*/
+     background-color: black;
+     color:white;
+ }
+ .gototop{
+     text-align: center;
+     padding-top:10px;
+     padding-bottom:10px;
+     border-bottom:1px solid white;
+     border-top:1px solid white;
+ }
+ .footer-container{
+     display: flex;
+ }
+ .footer-title{
+    color:yellow;
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right:133px;
+    margin-left:50px;
+    margin-top:10px;
+    text-shadow:
+      0 0 12px  yellow,
+      0 0 10px black,
+      0 0 21px black,
+      0 0 42px black,
+      0 0 82px black,
+      0 0 42px yellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+ }
+ .footer-title:hover{
+    transform:scale(1.3);
+    transition:all 1s ease-in-out;
+ }
+ .address{
+     display:flex;
+     margin-left:20px;
+ }
+ .the-actualadd{
+     margin-left:20px;
+     font-family:'oswald';
+ }
+ .mail{
+     color:white;
+     text-decoration: none;
+ }
+ .iframe{
+    margin-left:20px;
+    margin-top:20px;
+ }
+ .subscribe-email{
+     background-color: black;
+     border:1px solid white;
+     height: 30px;
+     width:250px;
+     color:white;
+}
+.subbutton{
+    background-color: red;
+    border:none;
+    border:1px solid white;
+    color:white;
+    font-size:17px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-left:30px;
+    margin-bottom:20px;
+    margin-top:20px;
+    cursor: pointer;
+}
+.subbutton:hover{
+    background-color: black;
+    color:yellow;
+    transition:all 0.8s ease-in-out;
+}
+.Subscribe{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+.subscribe-email{
+    margin-left:30px;
+}
+.welovesocial{
+    margin-left:30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.theicons{
+    margin-left:50px;
+    margin-top:20px;
+    font-size:23px;
+    display: flex;
+}
+.icon{
+    padding-right:30px;
+    cursor: pointer;
+}
+.iconlink{
+    color:white;
+}
+.fa-facebook-f:hover{
+    color:blue;
+    transition:0.6s ease-in-out
+}
+.fa-twitter:hover{
+    color:rgb(118, 118, 226);
+    transition:0.6s ease-in-out
+}
+.fa-instagram:hover{
+    color: #8a3ab9;
+    transition:0.6s ease-in-out
+}
+.fa-youtube:hover{
+    color:red;
+    transition:0.6s ease-in-out
+}
+.fa-google-play:hover{
+color:rgb(12, 240, 12);
+transition:0.6s ease-in-out
+}
+.download-app{
+    margin-left:30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top:20px;   
+}
+.store{
+    font-size:43px;
+    margin-left:30px;
+    margin-right:40px;
+    margin-top:20px;
+}
+.equip{
+    margin-right:20px;
+    margin-left:-10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size:20px;   
+}
+.imaxx{
+    margin-left:20px;
+}
+.fourdx{
+    margin-left:20px;
+}
+.photoflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.diningpartner{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size:20px;   
+    margin-left:30px;
+}
+.burger1{
+    margin-left:-30px;
+}
+.star1{
+    margin-right:-30px;
+}
+.copy-right{
+    margin-top:20px;
+    border-top:1px solid white;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:12px;
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+}
+.terms{
+    color:white;
+}
+.gotop{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gotop:hover{
+    color:red;
+    transition: all 0.5s ease-in-out;
+}
+.logoutlink{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Start of css for home page */
+.lefticon{
+    position:absolute;
+    z-index:100;
+    color:white;
+    font-size:30px;
+    margin-top:160px;
+    margin-left:20px;
+    cursor: pointer;
+}
+.photo{
+    margin-top:50px;
+    position: relative;
+    z-index:-10;
+}
+.righticon{
+    margin-left:1020px;
+    position:absolute;
+    z-index:100;
+    color:white;
+    font-size:30px;
+    margin-top:160px;
+    cursor: pointer;
+}
+#photo2{
+    display:none;
+}
+#photo3{
+    display:none;
+}
+.fa-chevron-left:hover{
+    color:gray;
+    transition:0.4s ease-in;
+}
+.fa-chevron-right:hover{
+    color:gray;
+    transition:0.4s ease-in
+}
+.text1{
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 20px;;
+    font-size:35px;
+    z-index: 1000;
+    margin-top:-120px;
+    text-shadow:
+      0 0 12px  black,
+      0 0 10px black,
+      0 0 41px black,
+      0 0 42px black,
+      0 0 82px black,
+      0 0 42px black;   
+}
+.now-showing-title{
+    font-family: 'oswald';
+    margin-top:30px;
+    margin-left:10px;
+    margin-left:33px;
+}
+.movie-list{
+    display: flex;
+}
+.the-movie{
+    margin-top:20px;
+    margin-left:33px;
+    margin-right:20px;
+    cursor: pointer;
+}
+.movie-text{
+    opacity:0;
+    margin-top:-40px;
+    margin-left:6px;
+    color:white;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow:
+      0 0 42px  black,
+      0 0 40px black,
+      0 0 41px black,
+      0 0 42px black,
+      0 0 82px black,
+      0 0 42px black;   
+}
+.the-movie:hover .movie-text{
+    opacity:1;
+    transition:all 0.5s ease-in-out;
+}
+.the-movie:hover{
+    transform:scale(1.1);
+    transition:all 0.5s ease-in-out;
+}
+#av{
+    margin-left:2px;
+}
+.Membership{
+    background-color: black;
+    color:white;
+}
+.membership-title{
+    font-family: 'oswald';
+    margin-top:10px;
+    padding-top:20px;
+    margin-left:10px;
+    margin-left:33px;
+}
+.member-flex{
+    display:flex;
+    padding-bottom: 40px;
+}
+.member-photo{
+    border-radius: 50%;
+    margin-left:200px;
+    margin-top:10px;
+    margin-right:100px;
+}
+
+.goldm{
+    color:gold;
+    margin-left:180px;
+    font-size:25px;
+    margin-top: 10px;
+    margin-right:10px;
+}
+.silverm{
+    color:silver;
+    margin-left:180px;
+    font-size:25px;
+    margin-top: 10px;
+    margin-right:10px;
+}
+.gold-membership{
+color:gold;
+font-family: 'oswald';
+}
+.silver-membership{
+    color:silver;
+    font-family: 'oswald';
+}
+.dining-title{
+    font-family: 'oswald';
+    margin-top:20px;
+    margin-left:10px;
+    margin-left:33px;
+}
+.burgerking{
+    border-radius: 50%;
+}
+.dining-pic{
+    margin-left:100px;
+    margin-top:20px;
+}
+.dining-flex{
+    display: flex;
+}
+.dining-content{
+    font-size:30px;
+    font-family:'oswald';
+    text-align: left;
+    font-weight:bold;
+    margin-left:30px;
+    margin-top:80px;
+}
+.domino{
+    margin-left:200px;
+    margin-right:100px;
+    border-radius: 50%;
+}
+.newspaper-title{
+    font-family: 'oswald';
+    margin-top:20px;
+    margin-left:33px;
+    margin-bottom:20px;
+}
+.newspaper-reviews{
+    margin-top:20px;
+    padding-top:10px;
+    background-color: black;
+    color:white;
+    padding-bottom:50px;
+}
+.star-rating{
+    color:yellow;
+    margin-left:150px;
+    font-size:40px;
+    margin-bottom:20px;
+}
+.newspaper-content{
+    font-family:'oswald';
+    margin-left:33px;
+    text-align: center;
+}
+.toflexnews{
+    display:flex;
+    margin-top:30px;
+}
+.remove-link{
+    color:white;
+    text-decoration: none;
+}
+.remove-link:hover{
+    color:yellow;
+    transform:scale(1.2);
+    transition:all 0.5s ease-in-out;   
+}
+.hover:hover .remove-link{
+    color:yellow;
+}
+/* End of css for home page */  
+/* Start of css for movie page */
+.movie-desc{
+    background-color: rgb(73, 72, 72);
+    color:white;
+}
+.movie-flex{
+    display:flex;
+}
+.movie-image{
+    margin-left:20px;
+    margin-right:20px;
+}
+.movie-name-title{
+    margin-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: 'oswald';
+    font-size:30px;
+}
+.category-flex{
+    display:flex;
+}
+.category-movie{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:2px solid white;
+    border-radius:80px;
+    padding:7px;
+    margin-right:20px;
+}
+.movie-about-title{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'oswald';
+    font-size:24px;
+}
+.runtime-dir{
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.cast-crew-title{
+    font-family: 'oswald';
+    margin-left:20px;
+    margin-top:10px;
+}
+.movie-title-flex{
+    display:flex;
+}
+.book{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:6px;
+    margin-left:850px;
+    font-family:'oswald';
+    font-size:20px;
+    border:1px solid white;
+    border-radius:30px;
+    background-color: red;
+    cursor: pointer;
+    padding-right:13px;
+    position:absolute;
+    padding-left:13px;
+}
+.book:hover{
+    background-color: black;
+    transition:all 0.5s ease-in-out;
+}
+.cast-photo{
+    border-radius:50%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+}
+.youtubevideo{
+    margin-left:250px;
+    margin-top:20px;
+}
+.cast-flex{
+    display:flex;
+}
+.cast-name{
+    margin-top:-60px;
+    margin-bottom:30px;
+    margin-left:40px;
+    opacity:0;
+    text-shadow:
+      0 0 12px  black,
+      0 0 10px black,
+      0 0 41px black,
+      0 0 42px black,
+      0 0 82px black,
+      0 0 42px black;  
+      font-weight: bold;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cast:hover .cast-name{
+    opacity:1;
+    transition:all 0.5s ease-in-out;
+}
+.trailers{
+    padding-bottom:30px;
+}
+.movie-image:hover{
+    transform:scale(1.1);
+    transition:all 0.5s ease-in-out;
+}
+.category-movie:hover{
+    background-color: blue;
+    transition:all 0.5s ease-in-out;
+}
+.booklink{
+    color:white;
+    text-decoration: none;
+}
+/* End of css for movie page */
+/* Start of css for book.php */
+.booking-title{
+    margin-top:60px;
+    margin-bottom:30px;
+    text-align: center;
+    font-family:'oswald';
+    font-size:30px;
+}
+.display-movie-info{
+    line-height: 40px;
+    margin-left:30px;
+    font-size:24px;
+}
+.display-seats{
+    margin-left:270px;
+    margin-top:-10px;
+}
+.seat{
+    font-size:27px;
+    margin-bottom:6px;
+    cursor: pointer;
+    color:rgb(71, 69, 69);
+}
+.red{
+    color:red;
+    cursor: not-allowed;
+}
+.ifselected{
+    color:green;
+}
+.rowno{
+    text-align: center;
+    padding-bottom:20px;
+}
+.column{
+    padding-right:20px;
+}
+.booking-details{
+    display:flex;
+    margin-top:30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.booking-part1{
+    background-color: rgb(202, 193, 193);
+    padding-top:10px;
+    padding-bottom:40px;
+}
+.book-photo{
+    margin-left:100px;
+}
+.continue-button{
+    padding-right:40px;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    border-radius:30px;
+}
+.continue-button:hover{
+    background-color: green;
+    transition:all 0.5s ease-in-out;
+}
+.continue-align{
+    margin-left:240px;
+    margin-top:30px;
+    font-size:20px;
+}
+.options{
+    display:flex;
+    margin-bottom:20px;
+}
+.the-option{
+    font-weight: lighter;
+    margin-right:30px;
+    margin-left:10px;
+    text-align: center;
+    font-size:20px;
+    border:2px solid black;
+    padding-right:3px;
+    padding-left:3px;
+    cursor: pointer;
+}
+.the-time{
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:16px;
+}
+.all-the-seats{
+    border:2px solid black;
+    padding-right:60px;
+    padding-left:60px;
+    padding-top:6px;
+}
+.green{
+    color:green;
+}
+.legend{
+    margin-bottom:20px;
+    text-align: center;
+    margin-top:-10px;
+}
+.fa-arrow-down{
+    font-size: 30px;
+    margin-left:40px;
+}
+.screen-msg{
+    font-size:20px;
+}
+.align2{
+    margin-top:20px;
+    margin-left:200px;
+}
+.food-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:40px;
+    margin-left:-35px;
+}
+.food-item{
+    text-align: center;
+    font-size:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.addbut{
+    margin-top:10px;
+    cursor: pointer;
+    border:2px solid black;
+}
+.addbut:hover{
+    background-color: green;
+    color:white;
+    transition:all 0.5s ease-in-out;
+}
+.align3{
+    margin-left:46%;
+    font-size:22px;
+}
+.food-disp{
+    margin-left:190px;
+    margin-top:-30px;
+}
+.bill-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.whole-bill{
+    border:2px solid black;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.bill-line{
+    margin-top:10px;
+    font-size:22px;
+    font-family:'oswald';
+    margin-right:80px;
+}
+.bill-flex{
+    display:flex;
+    border-bottom:2px solid black;
+    padding-bottom:10px;
+    margin-bottom:40px;
+}
+.bill-subtitle{
+    font-family:'oswald';
+    font-size:24px;
+    margin-right:60px;
+    text-align: right;
+}
+.bill-flexx{
+    display:flex;
+}
+.amt-disp{
+    font-family:'oswald';
+    margin-top:10px;
+    position: absolute;
+    font-size:22px;
+    margin-left:900px;
+}
+.food-amt-disp{
+    font-size:22px;
+    position: relative;
+    margin-left:714px;
+    margin-top:-30px;
+}
+.another-flex{
+    display:flex;
+    font-family:'oswald';
+    font-size:22px;
+}
+.disp-bill{
+    margin-left:560px;
+    margin-top:-30px;
+    margin-top:10px;
+    color:red;
+}
+.tax{
+    font-size:22px;
+    font-family:'oswald';
+    margin-left:905px;
+    margin-top:-30px;
+}
+.align4{
+    margin-top:30px;
+    margin-left:40%;
+    margin-bottom:20px;
+}
+.bold{
+    color:red;
+}
+/* End  of css for book.php */
+/* Start of css for membership.php */
+.member-main-flex{
+    display:flex;
+    margin-top:70px;
+    background: linear-gradient(120deg,black,50%,black,white,white);
+    padding-bottom:23px;
+}
+.member-photo-flex{
+    display:flex;
+}
+.down{
+    margin-top:200px;
+}
+.member-photo-flex{
+    margin-left:50px;
+}
+.member-image:hover{
+    transform:scale(1.1);
+    transition:0.4s ease-in-out;
+    cursor: pointer;
+}
+.member-title{
+    color:white;
+    font-weight: bold;
+    font-family:'oswald';
+    font-size:40px;
+    text-align: center;
+    margin-left:47px;
+    margin-top:40px;
+}
+.double-line{
+    width:340px;
+    line-height: 80px;
+    height:340px;
+    margin-top:0px;
+}
+.animLine {
+  background-size: cover;
+  float: left;
+  margin: 4px;
+  box-shadow: 0 2px 4px #000;
+  position: relative;
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+.animLine:hover {
+  transform: scale(1);
+  box-shadow: 0 2px 4px #000, 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.animLine:hover:before,
+.animLine:hover:after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(90deg, yellow 40%, transparent 40%);
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  z-index: 1;
+  border-radius: 4px;
+  background-size: 200% 4px;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0 8px yellow);
+  background-position: 80% 0;
+}
+
+.animLine:hover:before {
+  animation: beforeLineAnim 2s linear infinite;
+}
+
+.animLine:hover:after {
+  animation: afterLineAnim 2s linear infinite;
+  transform: rotate(-90deg);
+  background-position: -20% 0;
+}
+
+@keyframes beforeLineAnim {
+  45%,
+  50% {
+    background-position: -100% 0;
+  }
+  45% {
+    transform: scale(1);
+  }
+  50%,
+  95% {
+    transform: scale(1, -1);
+  }
+  95% {
+    background-position: 80% 0;
+  }
+}
+
+@keyframes afterLineAnim {
+  20%,
+  25% {
+    background-position: -100% 0;
+  }
+  20% {
+    transform: scale(1) rotate(-90deg);
+  }
+  25% {
+    transform: scale(-1, 1) rotate(-90deg);
+  }
+  70%,
+  75% {
+    background-position: 80% 0;
+  }
+  70% {
+    transform: scale(-1, 1) rotate(-90deg);
+  }
+  75% {
+    transform: scale(1, 1) rotate(-90deg);
+  }
+}
+
+.gold-flex{
+    display:flex;
+}
+.goldmember{
+    margin-top:30px;
+    display:none;
+    animation: fade 2s ease-in-out;
+}
+.silvermember{
+    margin-top:30px;
+    display:none;
+    animation: fade 2s ease-in-out;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        margin-top:80px;
+    }
+    to{
+        opacity:1;
+        margin-top:30px;
+    }
+}
+.gold-title{
+    margin-left:20px;
+    font-family:'oswald';
+    font-size:30px;
+}
+.gold-subtitle{
+    font-family:'oswald';
+    font-size:25px;
+}
+.align5{
+    margin-left:-100px;
+    font-family:'oswald';
+    margin-top:10px;
+}
+.align11{
+    margin-top:50px;
+}
+.buymember{
+    margin-left:180px;
+    margin-top:30px;
+    font-size:16px;
+    padding:20px;
+    cursor: pointer;
+    background-color: yellow;
+    font-weight: bold;
+    font-family:'oswald';
+    border-radius: 20px;
+    border:1px solid black;
+}
+.buymember:hover{
+    background-color: black;
+    color:white;
+    transition:all 1s ease-in-out;
+}
+.price{
+    font-size:40px;
+    margin-left:180px;
+}
+.silverb{
+    background-color: silver;   
+}
+/* End of css for membership.php */
+/* Start of css for aboutus.php */
+.side-nav{
+    display:flex;
+    flex-direction:column;
+    margin-top:55px;
+    position:fixed;
+    width:max-content;
+    z-index:-100;
+    height:100vh;
+    background-color: black;
+    color:white;
+}
+.sideitem{
+    margin-top:40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.aboutus-back{
+    background-image: url('../img/aboutus/aboutus5.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1400px 700px;
+    padding-bottom:400px;
+    padding-top:150px;
+    padding-left:50px;
+}
+.aboutus-back2{
+    background-image: url('../img/aboutus/aboutus2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1400px 700px;
+    padding-bottom:400px;
+}
+.aboutus-back3{
+    background-image: url('../img/aboutus/aboutus4.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1400px 700px;
+    padding-bottom:400px;
+    padding-left:30px;
+}
+.aboutus-content{
+    color:white;
+    font-size:10px;
+}
+.aboutus-title{
+    font-family: 'oswald';
+    font-size:60px;
+    font-weight: bolder;
+    text-shadow:
+      0 0 12px black,
+      0 0 30px black,
+      0 0 11px black,
+      0 0 22px black,
+      0 0 3px black;
+}
+.aboutus-para{
+    margin-top:500px;
+    font-family: 'oswald';
+    background-color: rgba(31, 29, 29, 0.336);
+    font-size: 30px;
+    width:500px;
+    text-align: center;
+}
+.aboutus-para2{   
+    font-family: 'oswald';
+    background-color: rgba(5, 5, 5, 0.545);
+    font-size: 30px;
+    width:500px;
+    text-align: center;
+    color:white;
+    text-align: center;
+}
+.aboutus-para3{
+    font-family: 'oswald';
+    background-color: rgba(5, 5, 5, 0.545);
+    font-size: 30px;
+    width:500px;
+    text-align: center;
+    color:white;
+    text-align: center;
+}
+.position-content{
+    padding-top:500px;
+    padding-left:550px;
+}
+.position-content1{
+    padding-top:500px;
+}
+.meet-team-title{
+    font-family:'oswald';
+    font-size:30px;
+    margin-top:20px;
+    margin-left:15px;
+}
+.team-row{
+    margin-top:30px;
+    margin-left:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.team-card{
+    width:250px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom:20px;
+}
+.team-title{
+    font-family:'oswald';
+    font-size:23px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.team-position{
+    font-family:'oswald';
+    font-size:18px;
+    text-align: center;
+    margin-bottom:10px;
+}
+.team-quote{
+    text-align:center;
+    font-family:'oswald';
+    font-size:15px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.terms-conditions{
+    background-color: black;
+    margin-top:20px;
+    padding-top:2px;
+    padding-bottom:30px;
+}
+.terms-title{
+    font-family: 'oswald';
+    margin-top:40px;
+    color:white;
+    margin-left:10px;
+}
+.each-term{
+    color:white;
+    margin-left:60px;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list{
+    color:white;
+}
+.black{
+    color:black;
+}
+.collab-title{
+    font-size:30px;
+    margin-top:40px;
+    margin-left:10px;
+    font-family:'oswald';
+}
+.food-photo{
+    margin-left:10px;
+    margin-top:25px;
+    margin-right:10px;
+}
+.food-text-flex{
+    display:flex;
+}
+.food-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+    margin-top:20px;
+}
+.the-food-content{
+    font-family: 'oswald';
+    font-size:20px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+    margin-top:20px;
+}
+.removed{
+    color:black;
+    text-decoration: none;
+}
+.visitus{
+    margin-left:60px;
+    margin-top:20px;
+    font-size:24px;
+    border:2px solid black;
+    width:fit-content;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.visitus:hover{
+    transform: scale(1.3);
+    transition:all 0.5s ease-in-out;
+}
+.profile-page{
+    margin-top:70px;
+}
+.profile-title{
+    font-family: 'oswald';
+    text-align: center;
+}
+.profile-content{
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:20px;
+    font-family: 'oswald';
+    border:1px solid black;
+    padding-left:20px;
+}
+.profile-line{
+    font-size:20px;
+    line-height: 50px;
+}
+.changepwd{
+    margin-left:20px;
+    margin-top:10px;
+    padding:15px;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 30px;
+}
+.changepwd:hover{
+    background-color: black;
+    color:white;
+    transition:all 0.6s ease-in-out;
+}
+.inputform{
+    margin-left:50px;
+    margin-bottom:20px;
+    padding:14px;
+    padding-right:50px;
+    
+}
+.title-pwd{
+    text-align: center;
+}
+.details-form{
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:10px;
+    
+}
+.full{
+    padding:10px;
+    margin-left:50px;    
+    margin-bottom:20px;
+}
+/* End of css for aboutus.php */
+/* Start of css for payment.php */
+.sometitle{
+    font-family:'oswald';
+    font-size:30px;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+.payform{
+    width:max-content;
+    margin-left: 33%;
+    margin-top: 5%;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.field{
+    padding:20px;
+}
+.payline{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.align360{
+    margin-left:140px;
+}
+/* End of css for payment.php */

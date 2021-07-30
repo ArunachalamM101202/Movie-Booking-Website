@@ -1,0 +1,99 @@
+Project ideas
+
+Project name : Movie website
+
+Theatre Name : DreamWorld Cinemas
+Email id:donotreplydwcinemas@gmail.com
+password: dreamworldcinemas
+
+Size for logo is 40x40
+
+Refer for ideas : https://www.jazzcinemas.com/
+		https://www.pvrcinemas.com/
+		https://in.bookmyshow.com/
+Colors:
+
+Primary color : Black
+Secondary Color : Yellow
+Tertiary Color : White
+Fourth color : Red
+
+Use Custom scoll bar : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2
+
+Fonts:(Refer google fonts)
+
+Alegreya --main
+IBM plex sans --main
+Archivo Narrow
+Lato
+Oswald
+--applefont(inbuilt) --main
+
+- login page:
+	--login/register should be seperate pages
+	--forgot password
+	--otp using email
+	--login should have username and password as placeholder and icons
+	--register details should be name,gender,phone no,email,city,username(this wont be displayed in your account),password and confirm password... after the details a confirm otp must be done with a timer which runs backwards from 180 seconds
+	--By creating an account, you agree to our Terms & Conditions (terms and conditions just link to  random page)
+	
+
+MAIN CONTENT PAGE:
+
+-navbar(do refer newtravelexperts.com  and https://www.kingstheatre.com/ for it)
+	-logo
+ 
+	-Home
+	-Movies (link to movies page)
+	-Food & drinks (info about the hotel and the popcorn,pepsi,small snacks served)
+	-Gold Membership
+	-About us
+	
+	-Hello $username(when hovered it should show log out)
+
+-first page is highlights of the theatre,dolbyatoms, top movies(refer pvr coming soon),gold membership,offers,hotel inside the theatre like id etc of sathyam,newspaper reviews of the theatre,footer
+
+-footer
+it should be 2 parts..
+	- part 1
+		logo,all links given in navbar,contact 	us,newsletter,dolbyatmos,imax,xpod photo and other cool 	photos from jazz should be moving or still
+	-part 2:(do refer newtravelexperts.com for it)
+		social media icons and copyright and privacy polics 	with terms of conditions
+
+Pages:
+
+-gold membership page like mumbaiindians or https://www.pvrcinemas.com/pvr/gold
+
+BOOKING:(after clicking book now)
+
+Now the following are the actual steps to book a ticket
+First login
+Select city
+Select the book button of the movie you wish to watch
+Select the date(keep date 2 to 3 dates max from the system date)
+Select the time(9:00pm or 3:30pm etc)
+Select the no of seats from 1 to 10
+Select the seat as per the row and column(have a way to show that screen is which direction)
+Select Continue button
+Show the food beverages available.. and then show continue button or pay
+Show final all details (movie name,date,time,theatre name(which will be same),no of tickets,seat name and row with price,food selected with price, have a checkbox for covid donation of 2 rs, and then display total amount
+Click on Pay
+THEN PAYMENT SCREEN
+After Payment, show the same details you had showed before and then show message that confirmation email has been sent and send the same details again
+
+--PAYMENT SCREEN(to be done at last)
+
+
+
+
+
+
+To change : 
+
+footer subscribe popup 
+mail color white in footer
+screen this way
+final.php above total amount a small line
+membership payment amount
+delete imp information in  login table
+dining page title
