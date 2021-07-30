@@ -15,3 +15,7 @@ Follow the following steps to use this project in your computer/laptop
 * First, fork this repository and download the 2020115013_Project folder
 * Store the folder inside your HTdocs folder (install xampp if you haven't)
 * Using phpmyadmin, import the sql dump file (dreamworld.sql) to get the 19 SQL tables
+* Start your xampp server
+* Type localhost:80/2020115013_Project/login.php   (Ensure port number is proper)
+* Login page is the main page, if you open any other page directly it will redirect to the login page
+* Now you can create an account and start using the website
