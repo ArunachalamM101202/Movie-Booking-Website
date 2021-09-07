@@ -11,6 +11,9 @@ This website has been designed using
 * PHP
 * MySQL
 
+## Working Demo
+Google Drive Link : https://drive.google.com/file/d/14pKzG_O1x-kk2sLFnX_USFXYvyczRcHp/view?usp=sharGooing
+
 ## How to use this project
 Follow the following steps to use this project in your computer/laptop
 
@@ -21,9 +24,6 @@ Follow the following steps to use this project in your computer/laptop
 * Type localhost:80/2020115013_Project/login.php   (Ensure port number is proper)
 * Login page is the main page, if you open any other page directly it will redirect to the login page
 * Now you can create an account and start using the website
-
-## Working Demo
-Google Drive Link : https://drive.google.com/file/d/14pKzG_O1x-kk2sLFnX_USFXYvyczRcHp/view?usp=sharGooing
 
 ## Things that I learnt while doing this project
 I learnt a lot of things while doing this project such as 
