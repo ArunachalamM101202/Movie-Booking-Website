@@ -34,3 +34,9 @@ I learnt a lot of things while doing this project such as
 * How to do proper Validation of a form using Javascript
 * Learnt more information on how to use mysqli object oriented method
 * How to use sessions and cookies properly
+
+## License
+Movie-Booking-Website is licensed under the MIT License. Read the [License file](https://github.com/ArunachalamM101202/Movie-Booking-Website/blob/main/LICENSE) to know more
+
+## Contact
+Arunachalam M - rome101202@gmail.com
