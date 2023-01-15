@@ -12,7 +12,7 @@ This website has been designed using
 * MySQL
 
 ## Working Demo
-Click the below image to play the video
+Click the below image to play the video<br>
 [![Movie Project Working Video](https://img.youtube.com/vi/--vmFXkatvQ/0.jpg)](https://www.youtube.com/watch?v=--vmFXkatvQ)
 
 ## How to use this project
