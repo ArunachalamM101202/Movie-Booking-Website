@@ -255,15 +255,15 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = "donotreplydwcinemas@gmail.com";                 // SMTP username
-$mail->Password = 'dreamworldcinemas';                           // SMTP password
+$mail->Username = "your_gmail_id";                 // SMTP username
+$mail->Password = 'your_gmail_id_password';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom("donotreplydwcinemas@gmail.com", 'DreamWorld Cinemas');
+$mail->setFrom("your_gmail_id", 'DreamWorld Cinemas');
 $mail->addAddress($email);     // Add a recipient
 
-$mail->addReplyTo('donotreplydwcinemas@gmail.com');
+$mail->addReplyTo('your_gmail_id');
 // $mail->addCC('cc@example.com');
 // $mail->addBCC('bcc@example.com');
 
